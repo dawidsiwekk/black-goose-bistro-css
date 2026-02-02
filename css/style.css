@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html {
     font-size: 100%;
 }
@@ -20,4 +25,22 @@ dt {
 
 strong {
     font-style: italic;
+}
+#info {
+    color: cadetblue;
+    font-style: italic;
+}
+.price {
+    font-style: italic;
+    color: grey;
+}
+.label {
+    font-variant: small-caps;
+}
+p.warning {
+    font-size: small;
+    color: red;
+}
+dt strong {
+    color: tomato;
 }

@@ -36,8 +36,9 @@ strong {
 }
 .label {
     font-variant: small-caps;
+    font-size: normal;
 }
-p.warning {
+p.warning, sup {
     font-size: small;
     color: red;
 }
